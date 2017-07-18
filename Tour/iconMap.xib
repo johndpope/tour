@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16A313a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="MarkerMap" customModule="Tour" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="40" height="40"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_background_marker" translatesAutoresizingMaskIntoConstraints="NO" id="stD-Bm-d08">
+                    <rect key="frame" x="0.0" y="0.0" width="40" height="40"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="2QX-qJ-l8o">
+                    <rect key="frame" x="2" y="2" width="36" height="31"/>
+                </imageView>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="stD-Bm-d08" secondAttribute="bottom" id="ExB-XG-tnS"/>
+                <constraint firstAttribute="trailing" secondItem="stD-Bm-d08" secondAttribute="trailing" id="Kaq-NH-mH9"/>
+                <constraint firstItem="2QX-qJ-l8o" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="2" id="Zm7-wB-BfI"/>
+                <constraint firstItem="stD-Bm-d08" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="c1m-7k-DrE"/>
+                <constraint firstItem="2QX-qJ-l8o" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="2" id="cE3-uZ-WAI"/>
+                <constraint firstAttribute="bottom" secondItem="2QX-qJ-l8o" secondAttribute="bottom" constant="7" id="fz6-Ic-wZG"/>
+                <constraint firstAttribute="trailing" secondItem="2QX-qJ-l8o" secondAttribute="trailing" constant="2" id="jbr-e5-mFD"/>
+                <constraint firstItem="stD-Bm-d08" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="lSU-y8-N4k"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="imageUser" destination="2QX-qJ-l8o" id="UDA-ei-EeH"/>
+            </connections>
+            <point key="canvasLocation" x="49" y="-27"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_background_marker" width="96" height="96"/>
+    </resources>
+</document>

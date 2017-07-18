@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16A313a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="HATableViewCell" rowHeight="240" id="KGk-i7-Jjw" customClass="HATableViewCell" customModule="Tour" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="240"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="239.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hoa-2o-mJG">
+                        <rect key="frame" x="8" y="8" width="304" height="223.5"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9uK-m5-une" customClass="GradientView" customModule="Tour" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="304" height="23"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="{title}" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FVw-fo-PkY">
+                                        <rect key="frame" x="0.0" y="0.0" width="304" height="23"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.1215686275" green="0.12941176469999999" blue="0.14117647059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="FVw-fo-PkY" secondAttribute="bottom" id="6qR-4i-YHX"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="23" id="OBi-cj-BfK"/>
+                                    <constraint firstItem="FVw-fo-PkY" firstAttribute="top" secondItem="9uK-m5-une" secondAttribute="top" id="S1s-wv-5ip"/>
+                                    <constraint firstAttribute="trailing" secondItem="FVw-fo-PkY" secondAttribute="trailing" id="mkz-NH-jKG"/>
+                                    <constraint firstItem="FVw-fo-PkY" firstAttribute="leading" secondItem="9uK-m5-une" secondAttribute="leading" id="sw9-o8-dYS"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dSr-H3-hhs">
+                                <rect key="frame" x="0.0" y="23" width="304" height="200.5"/>
+                                <subviews>
+                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8s0-BD-oVR">
+                                        <rect key="frame" x="0.0" y="0.0" width="304" height="200.5"/>
+                                        <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                                    </scrollView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="8s0-BD-oVR" secondAttribute="bottom" id="B6r-QK-aB5"/>
+                                    <constraint firstItem="8s0-BD-oVR" firstAttribute="leading" secondItem="dSr-H3-hhs" secondAttribute="leading" id="BXN-Ul-ekf"/>
+                                    <constraint firstAttribute="height" constant="200.5" id="fTw-MP-aFM"/>
+                                    <constraint firstAttribute="trailing" secondItem="8s0-BD-oVR" secondAttribute="trailing" id="fVa-Wb-dlA"/>
+                                    <constraint firstItem="8s0-BD-oVR" firstAttribute="top" secondItem="dSr-H3-hhs" secondAttribute="top" id="hSV-jf-LTw"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="9uK-m5-une" secondAttribute="trailing" id="2bZ-iJ-E24"/>
+                            <constraint firstAttribute="bottom" secondItem="dSr-H3-hhs" secondAttribute="bottom" id="Al7-Ti-ApC"/>
+                            <constraint firstAttribute="trailing" secondItem="dSr-H3-hhs" secondAttribute="trailing" id="FT9-c1-alr"/>
+                            <constraint firstItem="dSr-H3-hhs" firstAttribute="leading" secondItem="Hoa-2o-mJG" secondAttribute="leading" id="RuL-zE-FfC"/>
+                            <constraint firstItem="9uK-m5-une" firstAttribute="top" secondItem="Hoa-2o-mJG" secondAttribute="top" id="lZr-35-W9I"/>
+                            <constraint firstItem="dSr-H3-hhs" firstAttribute="top" secondItem="9uK-m5-une" secondAttribute="bottom" id="xey-0P-JgR"/>
+                            <constraint firstItem="9uK-m5-une" firstAttribute="leading" secondItem="Hoa-2o-mJG" secondAttribute="leading" id="ymA-L0-beN"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Hoa-2o-mJG" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="9sr-m9-aED"/>
+                    <constraint firstAttribute="bottom" secondItem="Hoa-2o-mJG" secondAttribute="bottom" constant="8" id="Enp-cF-i63"/>
+                    <constraint firstAttribute="trailing" secondItem="Hoa-2o-mJG" secondAttribute="trailing" constant="8" id="Nfa-gQ-cl3"/>
+                    <constraint firstItem="Hoa-2o-mJG" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="jxf-dB-jb0"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="slideShow" destination="8s0-BD-oVR" id="8Ib-GT-CFi"/>
+                <outlet property="title" destination="FVw-fo-PkY" id="GNh-cx-3os"/>
+                <outlet property="viewcontent" destination="Hoa-2o-mJG" id="UXg-Mw-lxR"/>
+            </connections>
+            <point key="canvasLocation" x="33" y="202"/>
+        </tableViewCell>
+    </objects>
+</document>

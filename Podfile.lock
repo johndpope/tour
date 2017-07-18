@@ -1,0 +1,82 @@
+PODS:
+  - Alamofire (4.5.0)
+  - AlamofireImage (3.2.0):
+    - Alamofire (~> 4.1)
+  - Auk (7.0.1):
+    - moa
+  - Cosmos (9.0.0)
+  - DatePickerDialog (1.1.7)
+  - DropDown (2)
+  - GoogleMaps (2.3.1):
+    - GoogleMaps/Maps (= 2.3.1)
+  - GoogleMaps/Base (2.3.1)
+  - GoogleMaps/Maps (2.3.1):
+    - GoogleMaps/Base
+  - GooglePlaces (2.3.1):
+    - GoogleMaps/Base (= 2.3.1)
+  - Kingfisher (3.10.2)
+  - moa (8.0.4)
+  - PopupDialog (0.5.4)
+  - SkyFloatingLabelTextField (2.0.1)
+  - Socket.IO-Client-Swift (10.1.0)
+  - STZPopupView (1.2.0)
+  - SVProgressHUD (2.1.2)
+  - SwiftCharts (0.6)
+  - SwiftyJSON (2.3.2)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.0)
+  - AlamofireImage (~> 3.2.0)
+  - Auk (~> 7.0)
+  - Cosmos (~> 9.0.0)
+  - DatePickerDialog (~> 1.1.7)
+  - DropDown
+  - GoogleMaps
+  - GooglePlaces
+  - Kingfisher (~> 3.0)
+  - moa (~> 8.0)
+  - PopupDialog (~> 0.5)
+  - SkyFloatingLabelTextField (~> 2.0.0)
+  - Socket.IO-Client-Swift
+  - STZPopupView
+  - SVProgressHUD (from `https://github.com/SVProgressHUD/SVProgressHUD.git`)
+  - SwiftCharts (~> 0.6)
+  - SwiftyJSON (from `https://github.com/BaiduHiDeviOS/SwiftyJSON.git`, branch `swift3`)
+
+EXTERNAL SOURCES:
+  SVProgressHUD:
+    :git: https://github.com/SVProgressHUD/SVProgressHUD.git
+  SwiftyJSON:
+    :branch: swift3
+    :git: https://github.com/BaiduHiDeviOS/SwiftyJSON.git
+
+CHECKOUT OPTIONS:
+  SVProgressHUD:
+    :commit: 7e3139d2d56b336e48c178cc4605966191f4ac24
+    :git: https://github.com/SVProgressHUD/SVProgressHUD.git
+  SwiftyJSON:
+    :commit: de5dc3b1b421805769590d331178551bbb0e5733
+    :git: https://github.com/BaiduHiDeviOS/SwiftyJSON.git
+
+SPEC CHECKSUMS:
+  Alamofire: f28cdffd29de33a7bfa022cbd63ae95a27fae140
+  AlamofireImage: 157ed682cc81d3b9db4fb90c1f12180ac552d93b
+  Auk: 6f8c4e93427d0d02641263776dd3b66ae4050903
+  Cosmos: 33eee62b2a0418452aef470f711f83c3ea061b7b
+  DatePickerDialog: bd5e7e92e4da2c6a8966b28d5f5d8f335d6c2c63
+  DropDown: 744784d9c9aa505100e942c16acd05430cbb2f0a
+  GoogleMaps: c66a71058b9b1294bcdd5463a68e357fa50c079f
+  GooglePlaces: 4a7b22debfa1af65017b82943431822607e45201
+  Kingfisher: 7297492bf8cec9b2e2dee3519f2219948580d98e
+  moa: 954e2ad962886626d02c3486dd3a7bb5f0052d14
+  PopupDialog: 75cf955693590b0cb2fdde00223fb65d99c57247
+  SkyFloatingLabelTextField: 070e749632ffd608d6fd9db3fa488a822524997c
+  Socket.IO-Client-Swift: c02140610cd8c9f3529eab7691affb80d432cfd7
+  STZPopupView: 7e878b4d1baedd5df339067d305ab0120dc6da62
+  SVProgressHUD: d65371a8e4482380deddb9fe60e14e59ddb30eb3
+  SwiftCharts: d8e6d60679bc982f48f8bea25cf5c1b94fcfec4f
+  SwiftyJSON: 6118fb49d7519c4d31a0c1f3d5af936e9047b556
+
+PODFILE CHECKSUM: b7052684eff0cebd5eb58004fca1d60962305ffb
+
+COCOAPODS: 1.2.1

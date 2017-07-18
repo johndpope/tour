@@ -7,14 +7,122 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F975910A1CFA879878E624FC /* Pods_Tour.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4019DD848392F0DBC5F22D0D /* Pods_Tour.framework */; };
+		FE02CA051EE64809008D46DF /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE02CA041EE64809008D46DF /* CoreLocation.framework */; };
+		FE06DDF31EDD13A700A295F5 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE06DDF21EDD13A700A295F5 /* User.swift */; };
+		FE06DDF51EDD153A00A295F5 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE06DDF41EDD153A00A295F5 /* Date.swift */; };
+		FE06DDF71EDD157400A295F5 /* LatLng.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE06DDF61EDD157400A295F5 /* LatLng.swift */; };
+		FE0C37741F0F6CD60010D4F9 /* GTViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0C37731F0F6CD60010D4F9 /* GTViewController.swift */; };
+		FE2009E01EDD22CB0037461E /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2009DF1EDD22CB0037461E /* SWRevealViewController.m */; };
+		FE2009EB1EDD31D60037461E /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE2009EA1EDD31D60037461E /* MenuViewController.swift */; };
+		FE2009ED1EDD32210037461E /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE2009EC1EDD32210037461E /* MenuTableViewCell.swift */; };
+		FE2009EF1EDD49C70037461E /* MainAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE2009EE1EDD49C70037461E /* MainAppViewController.swift */; };
+		FE2009F11EDD8FB30037461E /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE2009F01EDD8FB30037461E /* GradientView.swift */; };
+		FE2009F31EDD98AC0037461E /* UINavigationBarBG.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE2009F21EDD98AC0037461E /* UINavigationBarBG.swift */; };
+		FE642CFE1EFF62A700E32482 /* HeaderInfoPriceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE642CFC1EFF62A700E32482 /* HeaderInfoPriceTableViewCell.xib */; };
+		FE642D001EFF63BF00E32482 /* HeaderInfoPriceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE642CFF1EFF63BF00E32482 /* HeaderInfoPriceTableViewCell.swift */; };
+		FE642D021EFF647C00E32482 /* HeaderMenuViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE642D011EFF647C00E32482 /* HeaderMenuViewCell.swift */; };
+		FE642D051EFF65B700E32482 /* BodyInfoPriceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE642D031EFF65B700E32482 /* BodyInfoPriceTableViewCell.swift */; };
+		FE642D061EFF65B700E32482 /* BodyInfoPriceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE642D041EFF65B700E32482 /* BodyInfoPriceTableViewCell.xib */; };
+		FE642D091EFF778100E32482 /* HDVTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE642D071EFF778000E32482 /* HDVTableViewCell.swift */; };
+		FE642D0A1EFF778100E32482 /* HDVTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE642D081EFF778100E32482 /* HDVTableViewCell.xib */; };
+		FE642D0C1EFF885900E32482 /* Useroftour.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE642D0B1EFF885900E32482 /* Useroftour.swift */; };
+		FE815EA81EF6174B00362F50 /* InfoPrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE815EA71EF6174B00362F50 /* InfoPrice.swift */; };
+		FE8A6D0A1F0F1E9A0026EC05 /* PopupPlaceTourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8A6D091F0F1E9A0026EC05 /* PopupPlaceTourViewController.swift */; };
 		FE8C1F371EDC29FC00EAC1D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8C1F361EDC29FC00EAC1D8 /* AppDelegate.swift */; };
-		FE8C1F391EDC29FC00EAC1D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8C1F381EDC29FC00EAC1D8 /* ViewController.swift */; };
 		FE8C1F3C1EDC29FC00EAC1D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE8C1F3A1EDC29FC00EAC1D8 /* Main.storyboard */; };
 		FE8C1F3F1EDC29FC00EAC1D8 /* Tour.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FE8C1F3D1EDC29FC00EAC1D8 /* Tour.xcdatamodeld */; };
 		FE8C1F411EDC29FC00EAC1D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE8C1F401EDC29FC00EAC1D8 /* Assets.xcassets */; };
 		FE8C1F441EDC29FC00EAC1D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE8C1F421EDC29FC00EAC1D8 /* LaunchScreen.storyboard */; };
 		FE8C1F4F1EDC29FC00EAC1D8 /* TourTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8C1F4E1EDC29FC00EAC1D8 /* TourTests.swift */; };
 		FE8C1F5A1EDC29FD00EAC1D8 /* TourUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8C1F591EDC29FD00EAC1D8 /* TourUITests.swift */; };
+		FE8C1F681EDC2B5000EAC1D8 /* fontawesome-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FE8C1F671EDC2B5000EAC1D8 /* fontawesome-webfont.ttf */; };
+		FE8C1F6F1EDC349300EAC1D8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8C1F6E1EDC349300EAC1D8 /* LoginViewController.swift */; };
+		FE8C1F721EDC36D400EAC1D8 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8C1F711EDC36D400EAC1D8 /* String.swift */; };
+		FE8C1F741EDC373900EAC1D8 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8C1F731EDC373900EAC1D8 /* UIColor.swift */; };
+		FE8C1F761EDC376700EAC1D8 /* UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8C1F751EDC376700EAC1D8 /* UITextField.swift */; };
+		FE8C1F7A1EDC385D00EAC1D8 /* AColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8C1F791EDC385D00EAC1D8 /* AColor.swift */; };
+		FE8C1F7C1EDC487900EAC1D8 /* UICheckBok.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8C1F7B1EDC487900EAC1D8 /* UICheckBok.swift */; };
+		FE8EFAEC1EF7FF1000B90EC0 /* TourFindCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE8EFAEB1EF7FF1000B90EC0 /* TourFindCell.xib */; };
+		FE8FF9691EF8A3650022EAE1 /* DetailInfoTourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8FF9681EF8A3650022EAE1 /* DetailInfoTourViewController.swift */; };
+		FE8FF9791EF924FA0022EAE1 /* UIScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8FF9781EF924FA0022EAE1 /* UIScrollView.swift */; };
+		FE9085681EE53048006CBB41 /* Tour.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9085671EE53048006CBB41 /* Tour.swift */; };
+		FE90856A1EE537D2006CBB41 /* SPlashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9085691EE537D1006CBB41 /* SPlashViewController.swift */; };
+		FE90856C1EE53AD5006CBB41 /* StringUserdefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE90856B1EE53AD5006CBB41 /* StringUserdefaults.swift */; };
+		FE9085811F108E6900FBD3FA /* HAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9085801F108E6900FBD3FA /* HAViewController.swift */; };
+		FE9085831F108F2300FBD3FA /* SPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9085821F108F2300FBD3FA /* SPViewController.swift */; };
+		FE9085861F10983400FBD3FA /* HATableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9085841F10983400FBD3FA /* HATableViewCell.swift */; };
+		FE9085871F10983400FBD3FA /* HATableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE9085851F10983400FBD3FA /* HATableViewCell.xib */; };
+		FE9085891F109C7500FBD3FA /* ActivitiesImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9085881F109C7500FBD3FA /* ActivitiesImage.swift */; };
+		FE90858C1F10D2D300FBD3FA /* UserCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE90858A1F10D2D300FBD3FA /* UserCollectionViewCell.swift */; };
+		FE90858D1F10D2D300FBD3FA /* UserCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE90858B1F10D2D300FBD3FA /* UserCollectionViewCell.xib */; };
+		FE9085921F10EB7000FBD3FA /* LastMessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9085901F10EB7000FBD3FA /* LastMessageTableViewCell.swift */; };
+		FE9085931F10EB7000FBD3FA /* LastMessageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE9085911F10EB7000FBD3FA /* LastMessageTableViewCell.xib */; };
+		FE92FDA21EED509C0080E88E /* DetailFindTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE92FDA11EED509C0080E88E /* DetailFindTableViewCell.swift */; };
+		FE934F5A1EF3BBDD007C8255 /* ExamplesDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE934F591EF3BBDD007C8255 /* ExamplesDefaults.swift */; };
+		FE934F5C1EF3BC00007C8255 /* Env.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE934F5B1EF3BC00007C8255 /* Env.swift */; };
+		FE934F5E1EF3DD62007C8255 /* AssignmentUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE934F5D1EF3DD62007C8255 /* AssignmentUser.swift */; };
+		FE94496C1EE1385400F92345 /* UtilitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE94496B1EE1385400F92345 /* UtilitiesViewController.swift */; };
+		FE9449701EE13CC400F92345 /* UtilitiesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE94496F1EE13CC400F92345 /* UtilitiesCollectionViewCell.swift */; };
+		FE9449721EE13DFF00F92345 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9449711EE13DFF00F92345 /* Utilities.swift */; };
+		FE9449741EE14BB400F92345 /* WebUtilitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9449731EE14BB400F92345 /* WebUtilitiesViewController.swift */; };
+		FE9C17551EE3D68100A270EB /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9C17541EE3D68100A270EB /* RegisterViewController.swift */; };
+		FE9F382C1F0D141200A39B9F /* ExDouble.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9F382B1F0D141200A39B9F /* ExDouble.swift */; };
+		FEA12A621F0245FA0043D636 /* PlaceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA12A601F0245FA0043D636 /* PlaceTableViewCell.swift */; };
+		FEA12A631F0245FA0043D636 /* PlaceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEA12A611F0245FA0043D636 /* PlaceTableViewCell.xib */; };
+		FEA12A651F0259410043D636 /* GMapSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA12A641F0259410043D636 /* GMapSupport.swift */; };
+		FEA990441F00955500BC0EDA /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA990431F00955500BC0EDA /* Place.swift */; };
+		FEA990481F00CC8700BC0EDA /* TourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA990471F00CC8700BC0EDA /* TourViewController.swift */; };
+		FEA9904A1F00D27E00BC0EDA /* TourTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA990491F00D27E00BC0EDA /* TourTableViewCell.swift */; };
+		FEA9904E1F00DD0D00BC0EDA /* UITableCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA9904D1F00DD0D00BC0EDA /* UITableCollection.swift */; };
+		FEAB25CA1EDFD0CA00C4DA7C /* MainAppTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEAB25C81EDFD0CA00C4DA7C /* MainAppTableViewCell.swift */; };
+		FEAB25CF1EDFE55D00C4DA7C /* GetDataFromURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEAB25CE1EDFE55D00C4DA7C /* GetDataFromURL.swift */; };
+		FEAB25D31EDFEDDB00C4DA7C /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEAB25D21EDFEDDB00C4DA7C /* UIViewController.swift */; };
+		FEAB25D51EDFF34E00C4DA7C /* CodeServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEAB25D41EDFF34E00C4DA7C /* CodeServer.swift */; };
+		FEAB25D71EE0339E00C4DA7C /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEAB25D61EE0339E00C4DA7C /* UIImage.swift */; };
+		FEAB25D91EE1148A00C4DA7C /* GradientViewButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEAB25D81EE1148A00C4DA7C /* GradientViewButton.swift */; };
+		FEAE5A7D1F04951500AE5F7C /* ScheduleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEAE5A7C1F04951500AE5F7C /* ScheduleTableViewCell.xib */; };
+		FEAE5A811F04BC6300AE5F7C /* SchedulesDetail1TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEAE5A7F1F04BC6300AE5F7C /* SchedulesDetail1TableViewCell.xib */; };
+		FEB754261EFE6E7900650BBF /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB754251EFE6E7900650BBF /* ScheduleViewController.swift */; };
+		FEB754291EFE7C5B00650BBF /* ScheduleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB754271EFE7C5B00650BBF /* ScheduleTableViewCell.swift */; };
+		FEBCEE1B1EEBAA5E0094F378 /* RulesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBCEE1A1EEBAA5E0094F378 /* RulesViewController.swift */; };
+		FEBCEE1D1EEBBA120094F378 /* DataGlobals.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBCEE1C1EEBBA120094F378 /* DataGlobals.swift */; };
+		FEC4C4AA1F1343720020F4F7 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC4C4A91F1343720020F4F7 /* Message.swift */; };
+		FEC4C4AC1F136C760020F4F7 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC4C4AB1F136C760020F4F7 /* SettingViewController.swift */; };
+		FEC598861F037C8A00C9C5F8 /* TourRankCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC598841F037C8A00C9C5F8 /* TourRankCollectionViewCell.swift */; };
+		FEC598871F037C8A00C9C5F8 /* TourRankCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEC598851F037C8A00C9C5F8 /* TourRankCollectionViewCell.xib */; };
+		FEC598891F03832A00C9C5F8 /* TourRank.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC598881F03832A00C9C5F8 /* TourRank.swift */; };
+		FEC79FD91F0B29D500F2C6DA /* SocketManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC79FD81F0B29D500F2C6DA /* SocketManager.swift */; };
+		FEC7A0171F0BA24500F2C6DA /* iconMap.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEC7A0161F0BA24500F2C6DA /* iconMap.xib */; };
+		FEC7A0191F0C734F00F2C6DA /* MarkerMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC7A0181F0C734F00F2C6DA /* MarkerMap.swift */; };
+		FEC7A01B1F0C7A1A00F2C6DA /* InfoWindows.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC7A01A1F0C7A1A00F2C6DA /* InfoWindows.swift */; };
+		FEC7A01D1F0C7A3400F2C6DA /* InfoWindows.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEC7A01C1F0C7A3400F2C6DA /* InfoWindows.xib */; };
+		FEC7A01F1F0CA87800F2C6DA /* UIBtnCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC7A01E1F0CA87800F2C6DA /* UIBtnCall.swift */; };
+		FECE98701EF4D0F800FAC32F /* AssignmentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECE986F1EF4D0F800FAC32F /* AssignmentTableViewCell.swift */; };
+		FECE98721EF4F25E00FAC32F /* PopupAssignViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECE98711EF4F25E00FAC32F /* PopupAssignViewController.swift */; };
+		FED33A961EF95687001723E5 /* DatTourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED33A951EF95687001723E5 /* DatTourViewController.swift */; };
+		FED33A981EFA0626001723E5 /* TourProgram.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED33A971EFA0626001723E5 /* TourProgram.swift */; };
+		FED33A9B1EFA1350001723E5 /* TourProgramTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED33A991EFA1350001723E5 /* TourProgramTableViewCell.swift */; };
+		FED33A9C1EFA1350001723E5 /* TourProgramTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FED33A9A1EFA1350001723E5 /* TourProgramTableViewCell.xib */; };
+		FED33A9F1EFA39A6001723E5 /* TourTableViewCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED33A9D1EFA39A6001723E5 /* TourTableViewCell2.swift */; };
+		FED33AA01EFA39A6001723E5 /* TourTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FED33A9E1EFA39A6001723E5 /* TourTableViewCell.xib */; };
+		FED33AA21EFA9084001723E5 /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED33AA11EFA9084001723E5 /* Schedule.swift */; };
+		FED38AD51F0DD292006F96E0 /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = FED38AD41F0DD292006F96E0 /* View.xib */; };
+		FED38AD71F0DF2C3006F96E0 /* SchedulesDetail1TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED38AD61F0DF2C2006F96E0 /* SchedulesDetail1TableViewCell.swift */; };
+		FED44E1C1EFCA34900833339 /* DVKTCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED44E1A1EFCA34900833339 /* DVKTCollectionViewCell.swift */; };
+		FED44E1D1EFCA34900833339 /* DVKTCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FED44E1B1EFCA34900833339 /* DVKTCollectionViewCell.xib */; };
+		FEE7DDC01F0738CA0047FB6D /* TourProgramViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE7DDBF1F0738CA0047FB6D /* TourProgramViewController.swift */; };
+		FEE7DDC21F075C640047FB6D /* DetailTourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE7DDC11F075C640047FB6D /* DetailTourViewController.swift */; };
+		FEE7DDC81F0770AE0047FB6D /* DetailFindTourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE7DDC71F0770AE0047FB6D /* DetailFindTourViewController.swift */; };
+		FEE7DDCC1F0771DD0047FB6D /* DetailTourInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE7DDCB1F0771DD0047FB6D /* DetailTourInfoViewController.swift */; };
+		FEE7DDCE1F0788620047FB6D /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE7DDCD1F0788620047FB6D /* MapViewController.swift */; };
+		FEE7DDD01F078DA60047FB6D /* FragmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE7DDCF1F078DA60047FB6D /* FragmentViewController.swift */; };
+		FEEB72B81F08F3F8007E861D /* UseroftourTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEB72B71F08F3F8007E861D /* UseroftourTableViewCell.swift */; };
+		FEEB72BA1F08FB06007E861D /* UseroftourTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEEB72B91F08FB06007E861D /* UseroftourTableViewCell.xib */; };
+		FEF0E5BB1EDE5B35004D9461 /* UIImageViewAvatar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF0E5BA1EDE5B35004D9461 /* UIImageViewAvatar.swift */; };
+		FEF0E5C81EDE71E0004D9461 /* HeaderMenuViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEF0E5C61EDE71E0004D9461 /* HeaderMenuViewCell.xib */; };
+		FEF0E5CA1EDE764B004D9461 /* OutMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF0E5C91EDE764B004D9461 /* OutMenu.swift */; };
+		FEF0E5CC1EDE7C1F004D9461 /* CALayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF0E5CB1EDE7C1F004D9461 /* CALayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +143,34 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4019DD848392F0DBC5F22D0D /* Pods_Tour.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tour.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D08C137AA40E83B78E4AFEA /* Pods-Tour.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tour.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tour/Pods-Tour.debug.xcconfig"; sourceTree = "<group>"; };
+		88321B921C035E77284C738D /* Pods-Tour.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tour.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tour/Pods-Tour.release.xcconfig"; sourceTree = "<group>"; };
+		FE02CA041EE64809008D46DF /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		FE06DDF21EDD13A700A295F5 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		FE06DDF41EDD153A00A295F5 /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		FE06DDF61EDD157400A295F5 /* LatLng.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LatLng.swift; sourceTree = "<group>"; };
+		FE0C37731F0F6CD60010D4F9 /* GTViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GTViewController.swift; sourceTree = "<group>"; };
+		FE2009DD1EDD22CA0037461E /* Tour-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tour-Bridging-Header.h"; sourceTree = "<group>"; };
+		FE2009DE1EDD22CB0037461E /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		FE2009DF1EDD22CB0037461E /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		FE2009EA1EDD31D60037461E /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		FE2009EC1EDD32210037461E /* MenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+		FE2009EE1EDD49C70037461E /* MainAppViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainAppViewController.swift; sourceTree = "<group>"; };
+		FE2009F01EDD8FB30037461E /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		FE2009F21EDD98AC0037461E /* UINavigationBarBG.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UINavigationBarBG.swift; sourceTree = "<group>"; };
+		FE642CFC1EFF62A700E32482 /* HeaderInfoPriceTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderInfoPriceTableViewCell.xib; sourceTree = "<group>"; };
+		FE642CFF1EFF63BF00E32482 /* HeaderInfoPriceTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderInfoPriceTableViewCell.swift; sourceTree = "<group>"; };
+		FE642D011EFF647C00E32482 /* HeaderMenuViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderMenuViewCell.swift; sourceTree = "<group>"; };
+		FE642D031EFF65B700E32482 /* BodyInfoPriceTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BodyInfoPriceTableViewCell.swift; sourceTree = "<group>"; };
+		FE642D041EFF65B700E32482 /* BodyInfoPriceTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BodyInfoPriceTableViewCell.xib; sourceTree = "<group>"; };
+		FE642D071EFF778000E32482 /* HDVTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HDVTableViewCell.swift; sourceTree = "<group>"; };
+		FE642D081EFF778100E32482 /* HDVTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HDVTableViewCell.xib; sourceTree = "<group>"; };
+		FE642D0B1EFF885900E32482 /* Useroftour.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Useroftour.swift; sourceTree = "<group>"; };
+		FE815EA71EF6174B00362F50 /* InfoPrice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoPrice.swift; sourceTree = "<group>"; };
+		FE8A6D091F0F1E9A0026EC05 /* PopupPlaceTourViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupPlaceTourViewController.swift; sourceTree = "<group>"; };
 		FE8C1F331EDC29FC00EAC1D8 /* Tour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tour.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE8C1F361EDC29FC00EAC1D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FE8C1F381EDC29FC00EAC1D8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FE8C1F3B1EDC29FC00EAC1D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FE8C1F3E1EDC29FC00EAC1D8 /* Tour.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tour.xcdatamodel; sourceTree = "<group>"; };
 		FE8C1F401EDC29FC00EAC1D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +182,93 @@
 		FE8C1F551EDC29FD00EAC1D8 /* TourUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TourUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE8C1F591EDC29FD00EAC1D8 /* TourUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourUITests.swift; sourceTree = "<group>"; };
 		FE8C1F5B1EDC29FD00EAC1D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE8C1F671EDC2B5000EAC1D8 /* fontawesome-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "fontawesome-webfont.ttf"; path = "../fontawesome-webfont.ttf"; sourceTree = "<group>"; };
+		FE8C1F6E1EDC349300EAC1D8 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		FE8C1F711EDC36D400EAC1D8 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		FE8C1F731EDC373900EAC1D8 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		FE8C1F751EDC376700EAC1D8 /* UITextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextField.swift; sourceTree = "<group>"; };
+		FE8C1F791EDC385D00EAC1D8 /* AColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AColor.swift; sourceTree = "<group>"; };
+		FE8C1F7B1EDC487900EAC1D8 /* UICheckBok.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICheckBok.swift; sourceTree = "<group>"; };
+		FE8EFAEB1EF7FF1000B90EC0 /* TourFindCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TourFindCell.xib; sourceTree = "<group>"; };
+		FE8FF9681EF8A3650022EAE1 /* DetailInfoTourViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailInfoTourViewController.swift; sourceTree = "<group>"; };
+		FE8FF9781EF924FA0022EAE1 /* UIScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIScrollView.swift; sourceTree = "<group>"; };
+		FE9085671EE53048006CBB41 /* Tour.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tour.swift; sourceTree = "<group>"; };
+		FE9085691EE537D1006CBB41 /* SPlashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPlashViewController.swift; sourceTree = "<group>"; };
+		FE90856B1EE53AD5006CBB41 /* StringUserdefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringUserdefaults.swift; sourceTree = "<group>"; };
+		FE9085801F108E6900FBD3FA /* HAViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HAViewController.swift; sourceTree = "<group>"; };
+		FE9085821F108F2300FBD3FA /* SPViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPViewController.swift; sourceTree = "<group>"; };
+		FE9085841F10983400FBD3FA /* HATableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HATableViewCell.swift; sourceTree = "<group>"; };
+		FE9085851F10983400FBD3FA /* HATableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HATableViewCell.xib; sourceTree = "<group>"; };
+		FE9085881F109C7500FBD3FA /* ActivitiesImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivitiesImage.swift; sourceTree = "<group>"; };
+		FE90858A1F10D2D300FBD3FA /* UserCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCollectionViewCell.swift; sourceTree = "<group>"; };
+		FE90858B1F10D2D300FBD3FA /* UserCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserCollectionViewCell.xib; sourceTree = "<group>"; };
+		FE9085901F10EB7000FBD3FA /* LastMessageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LastMessageTableViewCell.swift; sourceTree = "<group>"; };
+		FE9085911F10EB7000FBD3FA /* LastMessageTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LastMessageTableViewCell.xib; sourceTree = "<group>"; };
+		FE92FDA11EED509C0080E88E /* DetailFindTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailFindTableViewCell.swift; sourceTree = "<group>"; };
+		FE934F591EF3BBDD007C8255 /* ExamplesDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExamplesDefaults.swift; sourceTree = "<group>"; };
+		FE934F5B1EF3BC00007C8255 /* Env.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Env.swift; sourceTree = "<group>"; };
+		FE934F5D1EF3DD62007C8255 /* AssignmentUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssignmentUser.swift; sourceTree = "<group>"; };
+		FE94496B1EE1385400F92345 /* UtilitiesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtilitiesViewController.swift; sourceTree = "<group>"; };
+		FE94496F1EE13CC400F92345 /* UtilitiesCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtilitiesCollectionViewCell.swift; sourceTree = "<group>"; };
+		FE9449711EE13DFF00F92345 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		FE9449731EE14BB400F92345 /* WebUtilitiesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebUtilitiesViewController.swift; sourceTree = "<group>"; };
+		FE9C17541EE3D68100A270EB /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		FE9F382B1F0D141200A39B9F /* ExDouble.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExDouble.swift; sourceTree = "<group>"; };
+		FEA12A601F0245FA0043D636 /* PlaceTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceTableViewCell.swift; sourceTree = "<group>"; };
+		FEA12A611F0245FA0043D636 /* PlaceTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlaceTableViewCell.xib; sourceTree = "<group>"; };
+		FEA12A641F0259410043D636 /* GMapSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GMapSupport.swift; sourceTree = "<group>"; };
+		FEA990431F00955500BC0EDA /* Place.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		FEA990471F00CC8700BC0EDA /* TourViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TourViewController.swift; sourceTree = "<group>"; };
+		FEA990491F00D27E00BC0EDA /* TourTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TourTableViewCell.swift; sourceTree = "<group>"; };
+		FEA9904D1F00DD0D00BC0EDA /* UITableCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableCollection.swift; sourceTree = "<group>"; };
+		FEAB25C81EDFD0CA00C4DA7C /* MainAppTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainAppTableViewCell.swift; sourceTree = "<group>"; };
+		FEAB25CE1EDFE55D00C4DA7C /* GetDataFromURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetDataFromURL.swift; sourceTree = "<group>"; };
+		FEAB25D21EDFEDDB00C4DA7C /* UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		FEAB25D41EDFF34E00C4DA7C /* CodeServer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodeServer.swift; sourceTree = "<group>"; };
+		FEAB25D61EE0339E00C4DA7C /* UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
+		FEAB25D81EE1148A00C4DA7C /* GradientViewButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientViewButton.swift; sourceTree = "<group>"; };
+		FEAE5A7C1F04951500AE5F7C /* ScheduleTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScheduleTableViewCell.xib; sourceTree = "<group>"; };
+		FEAE5A7F1F04BC6300AE5F7C /* SchedulesDetail1TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SchedulesDetail1TableViewCell.xib; sourceTree = "<group>"; };
+		FEB754251EFE6E7900650BBF /* ScheduleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
+		FEB754271EFE7C5B00650BBF /* ScheduleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleTableViewCell.swift; sourceTree = "<group>"; };
+		FEBCEE1A1EEBAA5E0094F378 /* RulesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RulesViewController.swift; sourceTree = "<group>"; };
+		FEBCEE1C1EEBBA120094F378 /* DataGlobals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataGlobals.swift; sourceTree = "<group>"; };
+		FEC4C4A91F1343720020F4F7 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		FEC4C4AB1F136C760020F4F7 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		FEC598841F037C8A00C9C5F8 /* TourRankCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TourRankCollectionViewCell.swift; sourceTree = "<group>"; };
+		FEC598851F037C8A00C9C5F8 /* TourRankCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TourRankCollectionViewCell.xib; sourceTree = "<group>"; };
+		FEC598881F03832A00C9C5F8 /* TourRank.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TourRank.swift; sourceTree = "<group>"; };
+		FEC79FD81F0B29D500F2C6DA /* SocketManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketManager.swift; sourceTree = "<group>"; };
+		FEC7A0161F0BA24500F2C6DA /* iconMap.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = iconMap.xib; sourceTree = "<group>"; };
+		FEC7A0181F0C734F00F2C6DA /* MarkerMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarkerMap.swift; sourceTree = "<group>"; };
+		FEC7A01A1F0C7A1A00F2C6DA /* InfoWindows.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoWindows.swift; sourceTree = "<group>"; };
+		FEC7A01C1F0C7A3400F2C6DA /* InfoWindows.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InfoWindows.xib; sourceTree = "<group>"; };
+		FEC7A01E1F0CA87800F2C6DA /* UIBtnCall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIBtnCall.swift; sourceTree = "<group>"; };
+		FECE986F1EF4D0F800FAC32F /* AssignmentTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssignmentTableViewCell.swift; sourceTree = "<group>"; };
+		FECE98711EF4F25E00FAC32F /* PopupAssignViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupAssignViewController.swift; sourceTree = "<group>"; };
+		FED33A951EF95687001723E5 /* DatTourViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatTourViewController.swift; sourceTree = "<group>"; };
+		FED33A971EFA0626001723E5 /* TourProgram.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TourProgram.swift; sourceTree = "<group>"; };
+		FED33A991EFA1350001723E5 /* TourProgramTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TourProgramTableViewCell.swift; sourceTree = "<group>"; };
+		FED33A9A1EFA1350001723E5 /* TourProgramTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TourProgramTableViewCell.xib; sourceTree = "<group>"; };
+		FED33A9D1EFA39A6001723E5 /* TourTableViewCell2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TourTableViewCell2.swift; sourceTree = "<group>"; };
+		FED33A9E1EFA39A6001723E5 /* TourTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TourTableViewCell.xib; sourceTree = "<group>"; };
+		FED33AA11EFA9084001723E5 /* Schedule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
+		FED38AD41F0DD292006F96E0 /* View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
+		FED38AD61F0DF2C2006F96E0 /* SchedulesDetail1TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchedulesDetail1TableViewCell.swift; sourceTree = "<group>"; };
+		FED44E1A1EFCA34900833339 /* DVKTCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DVKTCollectionViewCell.swift; sourceTree = "<group>"; };
+		FED44E1B1EFCA34900833339 /* DVKTCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DVKTCollectionViewCell.xib; sourceTree = "<group>"; };
+		FEE7DDBF1F0738CA0047FB6D /* TourProgramViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TourProgramViewController.swift; sourceTree = "<group>"; };
+		FEE7DDC11F075C640047FB6D /* DetailTourViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailTourViewController.swift; sourceTree = "<group>"; };
+		FEE7DDC71F0770AE0047FB6D /* DetailFindTourViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailFindTourViewController.swift; sourceTree = "<group>"; };
+		FEE7DDCB1F0771DD0047FB6D /* DetailTourInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailTourInfoViewController.swift; sourceTree = "<group>"; };
+		FEE7DDCD1F0788620047FB6D /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		FEE7DDCF1F078DA60047FB6D /* FragmentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FragmentViewController.swift; sourceTree = "<group>"; };
+		FEEB72B71F08F3F8007E861D /* UseroftourTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UseroftourTableViewCell.swift; sourceTree = "<group>"; };
+		FEEB72B91F08FB06007E861D /* UseroftourTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UseroftourTableViewCell.xib; sourceTree = "<group>"; };
+		FEF0E5BA1EDE5B35004D9461 /* UIImageViewAvatar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewAvatar.swift; sourceTree = "<group>"; };
+		FEF0E5C61EDE71E0004D9461 /* HeaderMenuViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderMenuViewCell.xib; sourceTree = "<group>"; };
+		FEF0E5C91EDE764B004D9461 /* OutMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutMenu.swift; sourceTree = "<group>"; };
+		FEF0E5CB1EDE7C1F004D9461 /* CALayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CALayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +276,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE02CA051EE64809008D46DF /* CoreLocation.framework in Frameworks */,
+				F975910A1CFA879878E624FC /* Pods_Tour.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +298,66 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E93CC5C1594F69382B85FB1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE02CA041EE64809008D46DF /* CoreLocation.framework */,
+				4019DD848392F0DBC5F22D0D /* Pods_Tour.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F52ADE65936B303F8C90CA0F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6D08C137AA40E83B78E4AFEA /* Pods-Tour.debug.xcconfig */,
+				88321B921C035E77284C738D /* Pods-Tour.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FE2009DC1EDD22760037461E /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FE2009DE1EDD22CB0037461E /* SWRevealViewController.h */,
+				FE2009DF1EDD22CB0037461E /* SWRevealViewController.m */,
+				FE2009DD1EDD22CA0037461E /* Tour-Bridging-Header.h */,
+			);
+			name = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+		FE2009E31EDD2CDD0037461E /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				FECE986F1EF4D0F800FAC32F /* AssignmentTableViewCell.swift */,
+				FE642D031EFF65B700E32482 /* BodyInfoPriceTableViewCell.swift */,
+				FE92FDA11EED509C0080E88E /* DetailFindTableViewCell.swift */,
+				FE9085841F10983400FBD3FA /* HATableViewCell.swift */,
+				FE642D071EFF778000E32482 /* HDVTableViewCell.swift */,
+				FE642CFF1EFF63BF00E32482 /* HeaderInfoPriceTableViewCell.swift */,
+				FE642D011EFF647C00E32482 /* HeaderMenuViewCell.swift */,
+				FEAB25C81EDFD0CA00C4DA7C /* MainAppTableViewCell.swift */,
+				FE2009EC1EDD32210037461E /* MenuTableViewCell.swift */,
+				FEA12A601F0245FA0043D636 /* PlaceTableViewCell.swift */,
+				FED38AD61F0DF2C2006F96E0 /* SchedulesDetail1TableViewCell.swift */,
+				FEB754271EFE7C5B00650BBF /* ScheduleTableViewCell.swift */,
+				FED33A991EFA1350001723E5 /* TourProgramTableViewCell.swift */,
+				FEA990491F00D27E00BC0EDA /* TourTableViewCell.swift */,
+				FED33A9D1EFA39A6001723E5 /* TourTableViewCell2.swift */,
+				FEEB72B71F08F3F8007E861D /* UseroftourTableViewCell.swift */,
+				FE9085901F10EB7000FBD3FA /* LastMessageTableViewCell.swift */,
+			);
+			name = TableViewCell;
+			sourceTree = "<group>";
+		};
+		FE8A6D0B1F0F2D4D0026EC05 /* ThietLap */ = {
+			isa = PBXGroup;
+			children = (
+				FEC4C4AB1F136C760020F4F7 /* SettingViewController.swift */,
+			);
+			name = ThietLap;
+			sourceTree = "<group>";
+		};
 		FE8C1F2A1EDC29FC00EAC1D8 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +365,8 @@
 				FE8C1F4D1EDC29FC00EAC1D8 /* TourTests */,
 				FE8C1F581EDC29FD00EAC1D8 /* TourUITests */,
 				FE8C1F341EDC29FC00EAC1D8 /* Products */,
+				F52ADE65936B303F8C90CA0F /* Pods */,
+				1E93CC5C1594F69382B85FB1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,8 +383,16 @@
 		FE8C1F351EDC29FC00EAC1D8 /* Tour */ = {
 			isa = PBXGroup;
 			children = (
+				FE934F581EF3BBD0007C8255 /* Chart */,
+				FE2009DC1EDD22760037461E /* SWRevealViewController */,
+				FE8C1F6D1EDC2DD800EAC1D8 /* Model */,
+				FEF0E5BC1EDE6F5C004D9461 /* XIB */,
+				FE8C1F701EDC36C400EAC1D8 /* Extention */,
+				FE94496A1EE137DE00F92345 /* CollectionViewCell */,
+				FE2009E31EDD2CDD0037461E /* TableViewCell */,
+				FE8C1F6C1EDC2DCC00EAC1D8 /* ViewController */,
+				FE8C1F6B1EDC2DBD00EAC1D8 /* Font */,
 				FE8C1F361EDC29FC00EAC1D8 /* AppDelegate.swift */,
-				FE8C1F381EDC29FC00EAC1D8 /* ViewController.swift */,
 				FE8C1F3A1EDC29FC00EAC1D8 /* Main.storyboard */,
 				FE8C1F401EDC29FC00EAC1D8 /* Assets.xcassets */,
 				FE8C1F421EDC29FC00EAC1D8 /* LaunchScreen.storyboard */,
@@ -128,6 +420,160 @@
 			path = TourUITests;
 			sourceTree = "<group>";
 		};
+		FE8C1F6B1EDC2DBD00EAC1D8 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				FE8C1F671EDC2B5000EAC1D8 /* fontawesome-webfont.ttf */,
+			);
+			name = Font;
+			sourceTree = "<group>";
+		};
+		FE8C1F6C1EDC2DCC00EAC1D8 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FE8A6D0B1F0F2D4D0026EC05 /* ThietLap */,
+				FEE7DDCA1F0771530047FB6D /* qlytour */,
+				FEE7DDC91F07713A0047FB6D /* Timtour */,
+				FE8C1F6E1EDC349300EAC1D8 /* LoginViewController.swift */,
+				FE2009EE1EDD49C70037461E /* MainAppViewController.swift */,
+				FE2009EA1EDD31D60037461E /* MenuViewController.swift */,
+				FECE98711EF4F25E00FAC32F /* PopupAssignViewController.swift */,
+				FE9C17541EE3D68100A270EB /* RegisterViewController.swift */,
+				FEBCEE1A1EEBAA5E0094F378 /* RulesViewController.swift */,
+				FE9085691EE537D1006CBB41 /* SPlashViewController.swift */,
+				FE94496B1EE1385400F92345 /* UtilitiesViewController.swift */,
+				FE9449731EE14BB400F92345 /* WebUtilitiesViewController.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		FE8C1F6D1EDC2DD800EAC1D8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FE8C1F791EDC385D00EAC1D8 /* AColor.swift */,
+				FE9085881F109C7500FBD3FA /* ActivitiesImage.swift */,
+				FE934F5D1EF3DD62007C8255 /* AssignmentUser.swift */,
+				FEA12A641F0259410043D636 /* GMapSupport.swift */,
+				FE815EA71EF6174B00362F50 /* InfoPrice.swift */,
+				FE06DDF61EDD157400A295F5 /* LatLng.swift */,
+				FEF0E5C91EDE764B004D9461 /* OutMenu.swift */,
+				FEA990431F00955500BC0EDA /* Place.swift */,
+				FED33AA11EFA9084001723E5 /* Schedule.swift */,
+				FEC79FD81F0B29D500F2C6DA /* SocketManager.swift */,
+				FE9085671EE53048006CBB41 /* Tour.swift */,
+				FED33A971EFA0626001723E5 /* TourProgram.swift */,
+				FEC598881F03832A00C9C5F8 /* TourRank.swift */,
+				FE06DDF21EDD13A700A295F5 /* User.swift */,
+				FE642D0B1EFF885900E32482 /* Useroftour.swift */,
+				FE9449711EE13DFF00F92345 /* Utilities.swift */,
+				FEC4C4A91F1343720020F4F7 /* Message.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		FE8C1F701EDC36C400EAC1D8 /* Extention */ = {
+			isa = PBXGroup;
+			children = (
+				FEC7A01A1F0C7A1A00F2C6DA /* InfoWindows.swift */,
+				FEF0E5CB1EDE7C1F004D9461 /* CALayer.swift */,
+				FEAB25D41EDFF34E00C4DA7C /* CodeServer.swift */,
+				FEBCEE1C1EEBBA120094F378 /* DataGlobals.swift */,
+				FE06DDF41EDD153A00A295F5 /* Date.swift */,
+				FEAB25CE1EDFE55D00C4DA7C /* GetDataFromURL.swift */,
+				FE2009F01EDD8FB30037461E /* GradientView.swift */,
+				FEAB25D81EE1148A00C4DA7C /* GradientViewButton.swift */,
+				FE8C1F711EDC36D400EAC1D8 /* String.swift */,
+				FE90856B1EE53AD5006CBB41 /* StringUserdefaults.swift */,
+				FE8C1F7B1EDC487900EAC1D8 /* UICheckBok.swift */,
+				FE8C1F731EDC373900EAC1D8 /* UIColor.swift */,
+				FEAB25D61EE0339E00C4DA7C /* UIImage.swift */,
+				FEF0E5BA1EDE5B35004D9461 /* UIImageViewAvatar.swift */,
+				FE2009F21EDD98AC0037461E /* UINavigationBarBG.swift */,
+				FE8FF9781EF924FA0022EAE1 /* UIScrollView.swift */,
+				FEA9904D1F00DD0D00BC0EDA /* UITableCollection.swift */,
+				FE8C1F751EDC376700EAC1D8 /* UITextField.swift */,
+				FEAB25D21EDFEDDB00C4DA7C /* UIViewController.swift */,
+				FEC7A0181F0C734F00F2C6DA /* MarkerMap.swift */,
+				FEC7A01E1F0CA87800F2C6DA /* UIBtnCall.swift */,
+				FE9F382B1F0D141200A39B9F /* ExDouble.swift */,
+			);
+			name = Extention;
+			sourceTree = "<group>";
+		};
+		FE934F581EF3BBD0007C8255 /* Chart */ = {
+			isa = PBXGroup;
+			children = (
+				FE934F591EF3BBDD007C8255 /* ExamplesDefaults.swift */,
+				FE934F5B1EF3BC00007C8255 /* Env.swift */,
+			);
+			name = Chart;
+			sourceTree = "<group>";
+		};
+		FE94496A1EE137DE00F92345 /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				FED44E1A1EFCA34900833339 /* DVKTCollectionViewCell.swift */,
+				FEC598841F037C8A00C9C5F8 /* TourRankCollectionViewCell.swift */,
+				FE94496F1EE13CC400F92345 /* UtilitiesCollectionViewCell.swift */,
+				FE90858A1F10D2D300FBD3FA /* UserCollectionViewCell.swift */,
+			);
+			name = CollectionViewCell;
+			sourceTree = "<group>";
+		};
+		FEE7DDC91F07713A0047FB6D /* Timtour */ = {
+			isa = PBXGroup;
+			children = (
+				FE0C37731F0F6CD60010D4F9 /* GTViewController.swift */,
+				FED33A951EF95687001723E5 /* DatTourViewController.swift */,
+				FEE7DDC71F0770AE0047FB6D /* DetailFindTourViewController.swift */,
+				FE8FF9681EF8A3650022EAE1 /* DetailInfoTourViewController.swift */,
+				FE9085801F108E6900FBD3FA /* HAViewController.swift */,
+				FE9085821F108F2300FBD3FA /* SPViewController.swift */,
+			);
+			name = Timtour;
+			sourceTree = "<group>";
+		};
+		FEE7DDCA1F0771530047FB6D /* qlytour */ = {
+			isa = PBXGroup;
+			children = (
+				FEE7DDCB1F0771DD0047FB6D /* DetailTourInfoViewController.swift */,
+				FEE7DDC11F075C640047FB6D /* DetailTourViewController.swift */,
+				FEE7DDCD1F0788620047FB6D /* MapViewController.swift */,
+				FEB754251EFE6E7900650BBF /* ScheduleViewController.swift */,
+				FEE7DDBF1F0738CA0047FB6D /* TourProgramViewController.swift */,
+				FEA990471F00CC8700BC0EDA /* TourViewController.swift */,
+				FEE7DDCF1F078DA60047FB6D /* FragmentViewController.swift */,
+				FE8A6D091F0F1E9A0026EC05 /* PopupPlaceTourViewController.swift */,
+			);
+			name = qlytour;
+			sourceTree = "<group>";
+		};
+		FEF0E5BC1EDE6F5C004D9461 /* XIB */ = {
+			isa = PBXGroup;
+			children = (
+				FE642D041EFF65B700E32482 /* BodyInfoPriceTableViewCell.xib */,
+				FED44E1B1EFCA34900833339 /* DVKTCollectionViewCell.xib */,
+				FE9085851F10983400FBD3FA /* HATableViewCell.xib */,
+				FE642D081EFF778100E32482 /* HDVTableViewCell.xib */,
+				FE642CFC1EFF62A700E32482 /* HeaderInfoPriceTableViewCell.xib */,
+				FEF0E5C61EDE71E0004D9461 /* HeaderMenuViewCell.xib */,
+				FEC7A0161F0BA24500F2C6DA /* iconMap.xib */,
+				FEC7A01C1F0C7A3400F2C6DA /* InfoWindows.xib */,
+				FEA12A611F0245FA0043D636 /* PlaceTableViewCell.xib */,
+				FEAE5A7F1F04BC6300AE5F7C /* SchedulesDetail1TableViewCell.xib */,
+				FEAE5A7C1F04951500AE5F7C /* ScheduleTableViewCell.xib */,
+				FE8EFAEB1EF7FF1000B90EC0 /* TourFindCell.xib */,
+				FED33A9A1EFA1350001723E5 /* TourProgramTableViewCell.xib */,
+				FEC598851F037C8A00C9C5F8 /* TourRankCollectionViewCell.xib */,
+				FED33A9E1EFA39A6001723E5 /* TourTableViewCell.xib */,
+				FE90858B1F10D2D300FBD3FA /* UserCollectionViewCell.xib */,
+				FEEB72B91F08FB06007E861D /* UseroftourTableViewCell.xib */,
+				FE9085911F10EB7000FBD3FA /* LastMessageTableViewCell.xib */,
+				FED38AD41F0DD292006F96E0 /* View.xib */,
+			);
+			name = XIB;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +581,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FE8C1F5E1EDC29FD00EAC1D8 /* Build configuration list for PBXNativeTarget "Tour" */;
 			buildPhases = (
+				A4A573B847565C15BD0049EB /* [CP] Check Pods Manifest.lock */,
 				FE8C1F2F1EDC29FC00EAC1D8 /* Sources */,
 				FE8C1F301EDC29FC00EAC1D8 /* Frameworks */,
 				FE8C1F311EDC29FC00EAC1D8 /* Resources */,
+				D44DBA99B1BEE11372A6393C /* [CP] Embed Pods Frameworks */,
+				EDA29A8D41E57FAC9B8A05EB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,7 +645,13 @@
 				TargetAttributes = {
 					FE8C1F321EDC29FC00EAC1D8 = {
 						CreatedOnToolsVersion = 8.3.2;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					FE8C1F491EDC29FC00EAC1D8 = {
 						CreatedOnToolsVersion = 8.3.2;
@@ -235,9 +690,29 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEF0E5C81EDE71E0004D9461 /* HeaderMenuViewCell.xib in Resources */,
+				FE9085931F10EB7000FBD3FA /* LastMessageTableViewCell.xib in Resources */,
+				FEC7A01D1F0C7A3400F2C6DA /* InfoWindows.xib in Resources */,
+				FED33A9C1EFA1350001723E5 /* TourProgramTableViewCell.xib in Resources */,
+				FEC598871F037C8A00C9C5F8 /* TourRankCollectionViewCell.xib in Resources */,
 				FE8C1F441EDC29FC00EAC1D8 /* LaunchScreen.storyboard in Resources */,
+				FEAE5A7D1F04951500AE5F7C /* ScheduleTableViewCell.xib in Resources */,
+				FEEB72BA1F08FB06007E861D /* UseroftourTableViewCell.xib in Resources */,
+				FE642D0A1EFF778100E32482 /* HDVTableViewCell.xib in Resources */,
+				FE642CFE1EFF62A700E32482 /* HeaderInfoPriceTableViewCell.xib in Resources */,
+				FEA12A631F0245FA0043D636 /* PlaceTableViewCell.xib in Resources */,
+				FED33AA01EFA39A6001723E5 /* TourTableViewCell.xib in Resources */,
+				FE8C1F681EDC2B5000EAC1D8 /* fontawesome-webfont.ttf in Resources */,
+				FED44E1D1EFCA34900833339 /* DVKTCollectionViewCell.xib in Resources */,
+				FEAE5A811F04BC6300AE5F7C /* SchedulesDetail1TableViewCell.xib in Resources */,
+				FEC7A0171F0BA24500F2C6DA /* iconMap.xib in Resources */,
 				FE8C1F411EDC29FC00EAC1D8 /* Assets.xcassets in Resources */,
+				FED38AD51F0DD292006F96E0 /* View.xib in Resources */,
+				FE90858D1F10D2D300FBD3FA /* UserCollectionViewCell.xib in Resources */,
 				FE8C1F3C1EDC29FC00EAC1D8 /* Main.storyboard in Resources */,
+				FE9085871F10983400FBD3FA /* HATableViewCell.xib in Resources */,
+				FE8EFAEC1EF7FF1000B90EC0 /* TourFindCell.xib in Resources */,
+				FE642D061EFF65B700E32482 /* BodyInfoPriceTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,14 +732,148 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A4A573B847565C15BD0049EB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D44DBA99B1BEE11372A6393C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tour/Pods-Tour-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDA29A8D41E57FAC9B8A05EB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tour/Pods-Tour-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FE8C1F2F1EDC29FC00EAC1D8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEAB25D91EE1148A00C4DA7C /* GradientViewButton.swift in Sources */,
+				FE8C1F6F1EDC349300EAC1D8 /* LoginViewController.swift in Sources */,
+				FEB754291EFE7C5B00650BBF /* ScheduleTableViewCell.swift in Sources */,
+				FE934F5A1EF3BBDD007C8255 /* ExamplesDefaults.swift in Sources */,
+				FEC598861F037C8A00C9C5F8 /* TourRankCollectionViewCell.swift in Sources */,
+				FEA12A621F0245FA0043D636 /* PlaceTableViewCell.swift in Sources */,
+				FEC79FD91F0B29D500F2C6DA /* SocketManager.swift in Sources */,
+				FEA9904E1F00DD0D00BC0EDA /* UITableCollection.swift in Sources */,
+				FE642D0C1EFF885900E32482 /* Useroftour.swift in Sources */,
+				FEE7DDD01F078DA60047FB6D /* FragmentViewController.swift in Sources */,
+				FE2009EB1EDD31D60037461E /* MenuViewController.swift in Sources */,
+				FE0C37741F0F6CD60010D4F9 /* GTViewController.swift in Sources */,
+				FE8C1F741EDC373900EAC1D8 /* UIColor.swift in Sources */,
+				FED33A981EFA0626001723E5 /* TourProgram.swift in Sources */,
+				FE642D021EFF647C00E32482 /* HeaderMenuViewCell.swift in Sources */,
+				FE8C1F761EDC376700EAC1D8 /* UITextField.swift in Sources */,
+				FEAB25D31EDFEDDB00C4DA7C /* UIViewController.swift in Sources */,
+				FE8C1F7C1EDC487900EAC1D8 /* UICheckBok.swift in Sources */,
+				FE642D051EFF65B700E32482 /* BodyInfoPriceTableViewCell.swift in Sources */,
+				FEE7DDC81F0770AE0047FB6D /* DetailFindTourViewController.swift in Sources */,
+				FED33A9B1EFA1350001723E5 /* TourProgramTableViewCell.swift in Sources */,
+				FE2009F11EDD8FB30037461E /* GradientView.swift in Sources */,
 				FE8C1F3F1EDC29FC00EAC1D8 /* Tour.xcdatamodeld in Sources */,
-				FE8C1F391EDC29FC00EAC1D8 /* ViewController.swift in Sources */,
+				FED33AA21EFA9084001723E5 /* Schedule.swift in Sources */,
+				FE8C1F721EDC36D400EAC1D8 /* String.swift in Sources */,
+				FEF0E5CA1EDE764B004D9461 /* OutMenu.swift in Sources */,
+				FEA990441F00955500BC0EDA /* Place.swift in Sources */,
+				FE8FF9791EF924FA0022EAE1 /* UIScrollView.swift in Sources */,
+				FEAB25CA1EDFD0CA00C4DA7C /* MainAppTableViewCell.swift in Sources */,
+				FE9085811F108E6900FBD3FA /* HAViewController.swift in Sources */,
+				FEE7DDCE1F0788620047FB6D /* MapViewController.swift in Sources */,
+				FEB754261EFE6E7900650BBF /* ScheduleViewController.swift in Sources */,
+				FE9085921F10EB7000FBD3FA /* LastMessageTableViewCell.swift in Sources */,
+				FE2009E01EDD22CB0037461E /* SWRevealViewController.m in Sources */,
+				FEC7A01B1F0C7A1A00F2C6DA /* InfoWindows.swift in Sources */,
+				FEC598891F03832A00C9C5F8 /* TourRank.swift in Sources */,
+				FE8A6D0A1F0F1E9A0026EC05 /* PopupPlaceTourViewController.swift in Sources */,
+				FE06DDF51EDD153A00A295F5 /* Date.swift in Sources */,
+				FE9449741EE14BB400F92345 /* WebUtilitiesViewController.swift in Sources */,
+				FED33A9F1EFA39A6001723E5 /* TourTableViewCell2.swift in Sources */,
+				FE2009ED1EDD32210037461E /* MenuTableViewCell.swift in Sources */,
+				FEE7DDCC1F0771DD0047FB6D /* DetailTourInfoViewController.swift in Sources */,
+				FEA12A651F0259410043D636 /* GMapSupport.swift in Sources */,
+				FECE98701EF4D0F800FAC32F /* AssignmentTableViewCell.swift in Sources */,
+				FE9449701EE13CC400F92345 /* UtilitiesCollectionViewCell.swift in Sources */,
+				FE934F5C1EF3BC00007C8255 /* Env.swift in Sources */,
+				FE2009EF1EDD49C70037461E /* MainAppViewController.swift in Sources */,
+				FE9449721EE13DFF00F92345 /* Utilities.swift in Sources */,
+				FEAB25D71EE0339E00C4DA7C /* UIImage.swift in Sources */,
+				FED38AD71F0DF2C3006F96E0 /* SchedulesDetail1TableViewCell.swift in Sources */,
+				FEAB25D51EDFF34E00C4DA7C /* CodeServer.swift in Sources */,
+				FE642D091EFF778100E32482 /* HDVTableViewCell.swift in Sources */,
+				FE934F5E1EF3DD62007C8255 /* AssignmentUser.swift in Sources */,
+				FE9F382C1F0D141200A39B9F /* ExDouble.swift in Sources */,
+				FE92FDA21EED509C0080E88E /* DetailFindTableViewCell.swift in Sources */,
+				FEA990481F00CC8700BC0EDA /* TourViewController.swift in Sources */,
+				FEC7A01F1F0CA87800F2C6DA /* UIBtnCall.swift in Sources */,
+				FEA9904A1F00D27E00BC0EDA /* TourTableViewCell.swift in Sources */,
+				FEAB25CF1EDFE55D00C4DA7C /* GetDataFromURL.swift in Sources */,
 				FE8C1F371EDC29FC00EAC1D8 /* AppDelegate.swift in Sources */,
+				FE90856C1EE53AD5006CBB41 /* StringUserdefaults.swift in Sources */,
+				FEC4C4AA1F1343720020F4F7 /* Message.swift in Sources */,
+				FECE98721EF4F25E00FAC32F /* PopupAssignViewController.swift in Sources */,
+				FEBCEE1D1EEBBA120094F378 /* DataGlobals.swift in Sources */,
+				FE2009F31EDD98AC0037461E /* UINavigationBarBG.swift in Sources */,
+				FEC7A0191F0C734F00F2C6DA /* MarkerMap.swift in Sources */,
+				FE90856A1EE537D2006CBB41 /* SPlashViewController.swift in Sources */,
+				FEE7DDC01F0738CA0047FB6D /* TourProgramViewController.swift in Sources */,
+				FE8FF9691EF8A3650022EAE1 /* DetailInfoTourViewController.swift in Sources */,
+				FE9085891F109C7500FBD3FA /* ActivitiesImage.swift in Sources */,
+				FEBCEE1B1EEBAA5E0094F378 /* RulesViewController.swift in Sources */,
+				FED33A961EF95687001723E5 /* DatTourViewController.swift in Sources */,
+				FE8C1F7A1EDC385D00EAC1D8 /* AColor.swift in Sources */,
+				FE9085681EE53048006CBB41 /* Tour.swift in Sources */,
+				FE94496C1EE1385400F92345 /* UtilitiesViewController.swift in Sources */,
+				FE815EA81EF6174B00362F50 /* InfoPrice.swift in Sources */,
+				FE9C17551EE3D68100A270EB /* RegisterViewController.swift in Sources */,
+				FEC4C4AC1F136C760020F4F7 /* SettingViewController.swift in Sources */,
+				FE9085831F108F2300FBD3FA /* SPViewController.swift in Sources */,
+				FE06DDF31EDD13A700A295F5 /* User.swift in Sources */,
+				FE90858C1F10D2D300FBD3FA /* UserCollectionViewCell.swift in Sources */,
+				FE9085861F10983400FBD3FA /* HATableViewCell.swift in Sources */,
+				FEE7DDC21F075C640047FB6D /* DetailTourViewController.swift in Sources */,
+				FE642D001EFF63BF00E32482 /* HeaderInfoPriceTableViewCell.swift in Sources */,
+				FEF0E5CC1EDE7C1F004D9461 /* CALayer.swift in Sources */,
+				FE06DDF71EDD157400A295F5 /* LatLng.swift in Sources */,
+				FEEB72B81F08F3F8007E861D /* UseroftourTableViewCell.swift in Sources */,
+				FEF0E5BB1EDE5B35004D9461 /* UIImageViewAvatar.swift in Sources */,
+				FED44E1C1EFCA34900833339 /* DVKTCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,24 +1025,31 @@
 		};
 		FE8C1F5F1EDC29FD00EAC1D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D08C137AA40E83B78E4AFEA /* Pods-Tour.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Tour/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.viendong.tour.Tour;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Tour/Tour-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		FE8C1F601EDC29FD00EAC1D8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88321B921C035E77284C738D /* Pods-Tour.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Tour/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.viendong.tour.Tour;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Tour/Tour-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -511,6 +1127,7 @@
 				FE8C1F601EDC29FD00EAC1D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FE8C1F611EDC29FD00EAC1D8 /* Build configuration list for PBXNativeTarget "TourTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +1136,7 @@
 				FE8C1F631EDC29FD00EAC1D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FE8C1F641EDC29FD00EAC1D8 /* Build configuration list for PBXNativeTarget "TourUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +1145,7 @@
 				FE8C1F661EDC29FD00EAC1D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

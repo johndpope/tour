@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16A313a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="ScheduleTableViewCell" selectionStyle="default" indentationWidth="10" reuseIdentifier="ScheduleTableViewCell" rowHeight="51" id="Cqf-pK-nd9" customClass="ScheduleTableViewCell" customModule="Tour" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="51"/>
+            <autoresizingMask key="autoresizingMask" heightSizable="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Cqf-pK-nd9" id="TaJ-YR-i8Q">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="50.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DBp-v8-RGu">
+                        <rect key="frame" x="4" y="4" width="367" height="42.5"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pZi-w6-CgE" customClass="GradientViewButton" customModule="Tour" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="367" height="40"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gDm-HU-vwt">
+                                        <rect key="frame" x="8" y="10" width="42" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_arrow_right" translatesAutoresizingMaskIntoConstraints="NO" id="iIF-20-OpF">
+                                        <rect key="frame" x="324" y="2.5" width="35" height="35"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="35" id="JXv-fR-fUu"/>
+                                            <constraint firstAttribute="height" constant="35" id="fBe-tf-RBQ"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="gDm-HU-vwt" firstAttribute="leading" secondItem="pZi-w6-CgE" secondAttribute="leading" constant="8" id="BTe-gf-jFD"/>
+                                    <constraint firstAttribute="trailing" secondItem="iIF-20-OpF" secondAttribute="trailing" constant="8" id="cDH-Fb-8M4"/>
+                                    <constraint firstAttribute="height" constant="40" id="m10-5I-Ioj"/>
+                                    <constraint firstItem="iIF-20-OpF" firstAttribute="centerY" secondItem="pZi-w6-CgE" secondAttribute="centerY" id="y7l-SQ-bB1"/>
+                                    <constraint firstItem="gDm-HU-vwt" firstAttribute="centerY" secondItem="pZi-w6-CgE" secondAttribute="centerY" id="z2Z-gX-fOC"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RGE-Dc-9iK">
+                                <rect key="frame" x="0.0" y="40" width="367" height="1"/>
+                                <subviews>
+                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ITl-RG-WSm">
+                                        <rect key="frame" x="0.0" y="0.0" width="367" height="1"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1" id="w1i-Gl-0yW"/>
+                                        </constraints>
+                                        <connections>
+                                            <outlet property="dataSource" destination="Cqf-pK-nd9" id="UV3-gT-zIx"/>
+                                            <outlet property="delegate" destination="Cqf-pK-nd9" id="0NI-jU-20h"/>
+                                        </connections>
+                                    </tableView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="ITl-RG-WSm" firstAttribute="top" secondItem="RGE-Dc-9iK" secondAttribute="top" id="JwW-kv-udI"/>
+                                    <constraint firstAttribute="trailing" secondItem="ITl-RG-WSm" secondAttribute="trailing" id="QEf-TP-E73"/>
+                                    <constraint firstAttribute="bottom" secondItem="ITl-RG-WSm" secondAttribute="bottom" id="Sfa-4D-7pU"/>
+                                    <constraint firstItem="ITl-RG-WSm" firstAttribute="leading" secondItem="RGE-Dc-9iK" secondAttribute="leading" id="UA6-68-5IC"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" id="nRa-MK-ffD"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="RGE-Dc-9iK" secondAttribute="trailing" id="DeL-Is-zge"/>
+                            <constraint firstItem="pZi-w6-CgE" firstAttribute="top" secondItem="DBp-v8-RGu" secondAttribute="top" id="FKY-qG-MyL"/>
+                            <constraint firstAttribute="bottom" secondItem="RGE-Dc-9iK" secondAttribute="bottom" constant="1.5" id="GEn-0D-pZE"/>
+                            <constraint firstItem="RGE-Dc-9iK" firstAttribute="leading" secondItem="DBp-v8-RGu" secondAttribute="leading" id="IsU-bp-Aef"/>
+                            <constraint firstItem="RGE-Dc-9iK" firstAttribute="top" secondItem="pZi-w6-CgE" secondAttribute="bottom" id="J3f-Lb-EoF"/>
+                            <constraint firstItem="pZi-w6-CgE" firstAttribute="leading" secondItem="DBp-v8-RGu" secondAttribute="leading" id="bBy-z0-RUZ"/>
+                            <constraint firstAttribute="trailing" secondItem="pZi-w6-CgE" secondAttribute="trailing" id="e8B-Oi-qKv"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="DBp-v8-RGu" firstAttribute="top" secondItem="TaJ-YR-i8Q" secondAttribute="top" constant="4" id="6uA-RJ-Wmk"/>
+                    <constraint firstItem="DBp-v8-RGu" firstAttribute="leading" secondItem="TaJ-YR-i8Q" secondAttribute="leading" constant="4" id="ElX-zZ-3ys"/>
+                    <constraint firstAttribute="trailing" secondItem="DBp-v8-RGu" secondAttribute="trailing" constant="4" id="QGh-d9-a4q"/>
+                    <constraint firstAttribute="bottom" secondItem="DBp-v8-RGu" secondAttribute="bottom" constant="4" id="bQl-X2-d02"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="btnShow" destination="pZi-w6-CgE" id="1ZL-sL-VOa"/>
+                <outlet property="contentview" destination="DBp-v8-RGu" id="S64-0U-9zO"/>
+                <outlet property="heightTableViewDetail1" destination="w1i-Gl-0yW" id="8hc-6M-hTU"/>
+                <outlet property="imagebtn" destination="iIF-20-OpF" id="ViM-5n-U1B"/>
+                <outlet property="namedate" destination="gDm-HU-vwt" id="N3v-Ko-wtN"/>
+                <outlet property="tableViewDetail1" destination="ITl-RG-WSm" id="AOE-sN-dmA"/>
+            </connections>
+            <point key="canvasLocation" x="20.5" y="-175.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ic_arrow_right" width="72" height="72"/>
+    </resources>
+</document>
